@@ -3,7 +3,7 @@ export default {
     const html = `<!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="image/png" href="https://imagedelivery.net/6AJ8EeWMEp3q00vGzdGzAg/b2a84502-43f3-4d3a-37a6-54252c8e4100/public"/>
+  <link rel='shortcut icon' type='image/x-icon' href='https://imagedelivery.net/6AJ8EeWMEp3q00vGzdGzAg/b2a84502-43f3-4d3a-37a6-54252c8e4100/public' />
   <title>Zip zorp, Station gas?</title>
 </head>
 <body>
