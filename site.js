@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+export default {
+  async fetch(request) {
+    const html = <!DOCTYPE html>
 <html>
 <head>
 <title>Zip zorp, Station gas?</title>
@@ -17,3 +19,12 @@
 
 </body>
 </html>
+;
+
+    return new Response(html, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+      },
+    });
+  },
+};
