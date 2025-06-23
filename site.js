@@ -1,9 +1,9 @@
 export default {
   async fetch(request) {
-    const html = '<!DOCTYPE html>
+    const html = `<!DOCTYPE html>
 <html>
 <head>
-<title>Zip zorp, Station gas?</title>
+  <title>Zip zorp, Station gas?</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@ export default {
 </div>
 
 </body>
-</html>'
+</html>`;
 
     return new Response(html, {
       headers: {
@@ -27,3 +27,4 @@ export default {
     });
   },
 };
+
