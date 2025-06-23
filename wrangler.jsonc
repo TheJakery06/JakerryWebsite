@@ -1,0 +1,6 @@
+{
+  "name": "jakerrywebsite",
+  "main": "site.js", // or your actual entry point
+  "type": "javascript",
+  "compatibility_date": "2025-06-23"
+}
